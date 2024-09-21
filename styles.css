@@ -1,0 +1,451 @@
+/* Import the external CSS file */
+@import url("https://90981e03b3525c060ac438353e4a3300.cdn.bubble.io/f1719608058163x825753518615514200/Safiro%20Medium.css");
+@import url("https://90981e03b3525c060ac438353e4a3300.cdn.bubble.io/f1719727743303x447523347489316540/Chaney%20Wide.css");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900");
+
+body {
+    width: 90%;
+    min-height: 100vh;
+    background: #04080f;
+    margin: auto;
+    padding: 24px;
+    /* Add padding if needed */
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    max-width: 540px;
+    color: #e8e8e8;
+    font-size: 18px;
+    font-family: "Safiro Medium";
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    text-align: center;
+    padding: 12px;
+    margin: auto;
+}
+
+ol {
+    max-width: 504px;
+    color: #e8e8e8;
+    font-size: 18px;
+    font-family: "Safiro Medium";
+    font-weight: 400;
+    line-height: 20px;
+    word-wrap: break-word;
+    text-align: left;
+    padding: 12px;
+    padding-left: 48px;
+    margin: auto;
+    list-style-type: decimal;
+    /* Use standard numbering */
+}
+
+ol li {
+    padding: 8px;
+    list-style-type: decimal;
+    /* Ensure list items use numbering */
+}
+
+p {
+    max-width: 540px;
+    color: #e8e8e8;
+    font-size: 18px;
+    font-family: "Safiro Medium";
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    text-align: left-align;
+    padding: 12px;
+    margin: auto;
+}
+
+ul {
+    max-width: 540px;
+    color: #e8e8e8;
+    font-size: 18px;
+    font-family: "Safiro Medium";
+    font-weight: 400;
+    line-height: 20px;
+    word-wrap: break-word;
+    text-align: left;
+    /* Corrected text-align property */
+    padding: 12px;
+    margin: auto;
+    list-style-type: disc;
+    /* Use standard bullet points */
+}
+
+ul li {
+    padding: 8px;
+    list-style-type: disc;
+    /* Ensure list items use bullet points */
+}
+
+.sponsor-box {
+    display: flex;
+    width: auto;
+    height: auto;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.sponsor-box img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+.title-group {
+    align-items: center;
+    gap: 8px;
+    margin: auto;
+    max-width: 600px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin: auto;
+    max-width: 600px;
+    padding: 24px;
+}
+
+.overline {
+    color: #e8e8e8;
+    font-size: 12px;
+    font-family: "Safiro Medium";
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 16px;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+    margin: auto;
+    text-align: center;
+}
+
+.title {
+    color: #e8e8e8;
+    font-size: 36px;
+    font-family: "Chaney Wide";
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.subtitle {
+    color: #e8e8e8;
+    font-size: 12px;
+    font-family: "Safiro Medium";
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 16px;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.sponsor-copy {
+    color: #e8e8e8;
+    font-size: 16px;
+    font-family: "Safiro Medium";
+    font-weight: 400;
+    line-height: 20px;
+    word-wrap: break-word;
+    margin: auto;
+    text-align: center;
+    padding: 12px;
+}
+
+.inline-link {
+    color: #e8e8e8;
+    font-size: 18px;
+    font-family: "Safiro Medium";
+    font-weight: 400;
+    line-height: 20px;
+    font-style: underline;
+}
+
+.inline-code {
+    color: #e8e8e8;
+    background-color: #3d3d3d;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 18px;
+    font-family: "Ubuntu Mono", monospace;
+    border-radius: 4px;
+    font-weight: 400;
+    line-height: 20px;
+    font-style: underline;
+}
+
+.footnote {
+    max-width: 400px;
+    padding: 24px;
+    color: #e8e8e8;
+    font-size: 12px;
+    font-family: "Safiro Medium";
+    font-weight: 200;
+    font-style: italic;
+    line-height: 20px;
+    word-wrap: break-word;
+    text-align: center;
+    margin: auto;
+}
+
+.button {
+    color: #e8e8e8;
+    font-size: 16px;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    line-height: 20px;
+    background: #04080f;
+    border: 1px solid #e8e8e8;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition:
+        background 0.3s,
+        color 0.3s;
+    text-decoration: none;
+}
+
+.button:hover {
+    text-decoration: underline;
+    /* Apply underline on hover */
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    /* Center buttons horizontally */
+    align-items: center;
+    /* Center buttons vertically */
+    gap: 16px;
+    /* Space between buttons */
+    flex-wrap: wrap;
+    /* Allow wrapping to new line if needed */
+    padding: 24px;
+    margin: 24px;
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 540px) {
+    body {
+        padding: 24px;
+        /* Add padding if needed */
+    }
+
+    p {
+        max-width: 100%;
+        /* Ensure it doesn't exceed the viewport width */
+        color: #e8e8e8;
+        font-size: 16px;
+        font-family: "Safiro Medium";
+        font-weight: 400;
+        line-height: 20px;
+        word-wrap: break-word;
+        text-align: left;
+        /* Corrected text-align property */
+        padding: 12px;
+        margin: auto;
+    }
+
+    ol {
+        max-width: 100%;
+        color: #e8e8e8;
+        font-size: 16px;
+        font-family: "Safiro Medium";
+        font-weight: 400;
+        line-height: 20px;
+        word-wrap: break-word;
+        text-align: left;
+        padding: 12px;
+        padding-left: 48px;
+        margin: auto;
+        list-style-type: decimal;
+        /* Use standard numbering */
+    }
+
+    ol li {
+        padding: 8px;
+        list-style-type: decimal;
+        /* Ensure list items use numbering */
+    }
+
+    ul {
+        max-width: 100%;
+        /* Ensure it doesn't exceed the viewport width */
+        color: #e8e8e8;
+        font-size: 16px;
+        font-family: "Safiro Medium";
+        font-weight: 400;
+        line-height: 20px;
+        word-wrap: break-word;
+        text-align: left;
+        /* Corrected text-align property */
+        padding: 12px;
+        margin: auto;
+        list-style-type: disc;
+        /* Use standard bullet points */
+    }
+
+    ul li {
+        padding: 8px;
+        list-style-type: disc;
+        /* Ensure list items use bullet points */
+    }
+
+    .title-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        margin: auto;
+        max-width: 100%;
+        /* Ensure it doesn't exceed the viewport width */
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .home-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        margin: auto;
+        max-width: 100%;
+        /* Ensure it doesn't exceed the viewport width */
+        padding: 24px;
+    }
+
+    .overline {
+        color: #e8e8e8;
+        font-size: 10px;
+        font-family: "Safiro Medium";
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 16px;
+        letter-spacing: 2px;
+        word-wrap: break-word;
+        margin: auto;
+        text-align: center;
+    }
+
+    .title {
+        color: #e8e8e8;
+        font-size: 24px;
+        font-family: "Chaney Wide";
+        font-weight: 400;
+        word-wrap: break-word;
+        text-align: center;
+    }
+
+    .subtitle {
+        color: #e8e8e8;
+        font-size: 10px;
+        font-family: "Safiro Medium";
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 16px;
+        letter-spacing: 2px;
+        word-wrap: break-word;
+        text-align: center;
+    }
+
+    .sponsor-copy {
+        color: #e8e8e8;
+        font-size: 16px;
+        font-family: "Safiro Medium";
+        font-weight: 400;
+        line-height: 20px;
+        word-wrap: break-word;
+        margin: auto;
+        text-align: center;
+        padding: 12px;
+    }
+
+    .sponsor-box {
+        display: flex;
+        width: auto;
+        height: auto;
+        padding: 24px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .sponsor-box img {
+        max-width: 100%;
+        max-height: auto;
+    }
+
+    .inline-link {
+        color: #e8e8e8;
+        font-size: 16px;
+        font-family: "Safiro Medium";
+        font-weight: 400;
+        line-height: 20px;
+        text-decoration: underline;
+    }
+
+    .footnote {
+        max-width: 100%;
+        /* Ensure it doesn't exceed the viewport width */
+        padding: 24px;
+        color: #e8e8e8;
+        font-size: 12px;
+        font-family: "Safiro Medium";
+        font-weight: 200;
+        font-style: italic;
+        line-height: 20px;
+        word-wrap: break-word;
+        text-align: center;
+        margin: auto;
+    }
+
+    .button {
+        color: #e8e8e8;
+        font-size: 16px;
+        font-family: "Ubuntu Mono", monospace;
+        font-weight: 400;
+        line-height: 20px;
+        background: #04080f;
+        border: 1px solid #e8e8e8;
+        padding: 8px 20px;
+        cursor: pointer;
+        transition:
+            background 0.3s,
+            color 0.3s;
+        text-decoration: none;
+    }
+
+    .button:hover {
+        text-decoration: underline;
+        /* Apply underline on hover */
+    }
+
+    .button-group {
+        display: flex;
+        flex-direction: column;
+        /* Stack buttons vertically on narrow screens */
+        justify-content: center;
+        /* Center buttons horizontally */
+        align-items: center;
+        /* Center buttons vertically */
+        gap: 8px;
+        /* Space between buttons */
+        padding: 12px;
+        margin: 12px;
+    }
+}
